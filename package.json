@@ -4,11 +4,17 @@
   "description": "SMEE as a Service",
   "main": "index.js",
   "scripts": {
-    "test": "mocha **/*.test.js"
+    "test": "mocha **/*.test.js",
+    "start": "node index.js",
+    "now-start": "node index.js",
+    "start:dev": "nodemon index.js"
   },
   "author": "Robert Koch",
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
   }
 }
