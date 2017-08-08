@@ -6,8 +6,9 @@
   "scripts": {
     "test": "mocha **/*.test.js",
     "start": "node index.js",
-    "now-start": "node index.js",
-    "start:dev": "nodemon index.js"
+    "now-start": "NODE_ENV=production node index.js",
+    "start:dev": "nodemon index.js",
+    "deploy": "now alias set $(now --public) smee"
   },
   "author": "Robert Koch",
   "license": "ISC",

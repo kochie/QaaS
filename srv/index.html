@@ -6,8 +6,11 @@
 </head>
 <body>
     <div id="app" v-on:click=getAQuote v-if="loaded" class="vertical-container">
-        <div>
-            <img class="smee-logo" src="SMEE-Logo.png" alt="SMEE Logo"></img>
+        <div class="horizontal-container">
+            <div>
+                <img class="smee-logo" src="SMEE-Logo.png" alt="SMEE Logo"></img>
+            </div>
+            <p style="padding-left: 60px">As A Service</p>
         </div>
         <div class="horizontal-container quote-box">
             <img src="robot2-01.png" alt="robot" class="smee-robot"></img>
@@ -20,7 +23,8 @@
             </div>
         </div>
     </div>
-    <script src="https://unpkg.com/vue"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.0/vue.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.0/vue.min.js"></script>
     <script src="./main.js"></script>
 </body>
 </html>

@@ -9,7 +9,6 @@ var app = new Vue({
           fetch("/api/quotes/random").then((res) => {
               return res.json();
           }).then((json) => {
-              console.log('parsed json', json);
               this.quote = json;
               this.loaded = true;
           })

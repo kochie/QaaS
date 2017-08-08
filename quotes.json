@@ -1,6 +1,6 @@
 [
     {
-        "quote": "I would know if I was [blowing myself]",
+        "quote": "I would know if I was. [blowing myself]",
         "week": 1,
         "person": "Rory"
     },
@@ -10,7 +10,7 @@
         "person": "Lachlan"
     },
     {
-        "quote": "If he were a prostitute he would be happier to be with me",
+        "quote": "If he were a prostitute he would be happier to be with me.",
         "week": 3,
         "person": "Lucina"
     },
@@ -30,7 +30,7 @@
         "person": "Antoine"
     },
     {
-        "quote": "I've had it drilled in to mw from both ways.",
+        "quote": "I've had it drilled in to me from both ways.",
         "week": 5,
         "person": "Robert"
     },
@@ -40,7 +40,7 @@
         "person": "Matt #2"
     },
     {
-        "quote": "I was king of the stormdrain",
+        "quote": "I was king of the stormdrain.",
         "week": 7,
         "person": "Scott"
     },
@@ -98,9 +98,9 @@
         "person": "Matt #2"
     },
     {
-        "quote": "What is a volt.",
+        "quote": "What is a volt?",
         "week": 3,
         "semester": 2,
-        "person": "Jamess"
+        "person": "James"
     }
 ]
