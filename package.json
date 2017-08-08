@@ -1,0 +1,14 @@
+{
+  "name": "smee-as-a-service",
+  "version": "1.0.0",
+  "description": "SMEE as a Service",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha **/*.test.js"
+  },
+  "author": "Robert Koch",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
