@@ -1,0 +1,36 @@
+.vertical-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.horizontal-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.quote-box {
+    border-color: black;
+    border-radius: 20px;
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px;
+    width: 800px;
+}
+
+.quote-text {
+    font-size: 2em;
+    font-style: italic;
+}
+
+.smee-logo {
+    width: 40vh;
+    padding: 5%;
+}
+
+.smee-robot {
+    height: 300px;
+    margin: 30px;
+}

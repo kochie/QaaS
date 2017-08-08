@@ -2,12 +2,23 @@
 <html>
 <head>
     <title>SMEE as a Service</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
 </head>
 <body>
-    <div id="app" v-on:click=getAQuote v-if="loaded">
-        <p>{{ quote.quote }}</p>
-        <p>- {{ quote.person }}</p>
-        <p>Week: {{ quote.week }}</p>
+    <div id="app" v-on:click=getAQuote v-if="loaded" class="vertical-container">
+        <div>
+            <img class="smee-logo" src="SMEE-Logo.png" alt="SMEE Logo"></img>
+        </div>
+        <div class="horizontal-container quote-box">
+            <img src="robot2-01.png" alt="robot" class="smee-robot"></img>
+            <div>
+                <p class="quote-text">{{ quote.quote }}</p>
+                <p>- {{ quote.person }}</p>
+                <p>Week: {{ quote.week }}</p>
+                <hr>
+                <p>Click the robot for more!</p>
+            </div>
+        </div>
     </div>
     <script src="https://unpkg.com/vue"></script>
     <script src="./main.js"></script>
