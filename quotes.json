@@ -102,5 +102,41 @@
         "week": 3,
         "semester": 2,
         "person": "James"
+    },
+    {
+        "quote": "Assface gives good head.",
+        "week": 3,
+        "semester": 2,
+        "person": "Matt #1"
+    },
+    {
+        "quote": "Wouldn't be the first time L has worked on her back.",
+        "week": 4,
+        "semester": 2,
+        "person": "James"
+    },
+    {
+        "quote": "... to higher loans given their assets and now they're leveraged out the arsehole.",
+        "week": 5,
+        "semester": 2,
+        "person": "Scott"
+    },
+    {
+        "quote": "Mate, I shit on myself all the time.",
+        "week": 3,
+        "semester": 2,
+        "person": "Robert"
+    },
+    {
+        "quote": "[looking at crotch] Well that's a dissapointment.",
+        "week": 5,
+        "semester": 2,
+        "person": "Merlin"
+    },
+    {
+        "quote": "I don't know computers.",
+        "week": 5,
+        "semester": 2,
+        "person": "Will"
     }
 ]
