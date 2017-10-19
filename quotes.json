@@ -138,5 +138,23 @@
         "week": 5,
         "semester": 2,
         "person": "Will"
+    },
+    {
+        "quote": "I am the Mary Poppins of electronics.",
+        "week": 6,
+        "semester": 2,
+        "person": "Amy"
+    },
+    {
+      "quote": "It feels better if you don't use a firewall.",
+      "week": 9,
+      "semester": 2,
+      "person": "Commander Salamander"
+    },
+    {
+      "quote": "If I don't wear a condom, I don't need a firewall.",
+      "week": 10,
+      "semester": 2,
+      "person": "Valente"
     }
 ]
